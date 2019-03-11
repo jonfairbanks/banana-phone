@@ -1,0 +1,6 @@
+{
+    "accountSid": "Axxxxxxxxxxxxxxxxx",
+    "authToken": "4cxxxxxxxxxxxxxxxxx",
+    "from": "+15555555",
+    "xmlUrl": "http://demo.twilio.com/docs/voice.xml"
+}
