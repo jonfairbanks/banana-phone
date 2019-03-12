@@ -2,9 +2,7 @@ const config = require('./config/config.json')
 const twilio = require('twilio')
 const client = new twilio(config.accountSid, config.authToken)
 
-const to = '+1' + process.argv[2]
-
-console.log('Calling ' + to + '...')
+const to = process.argv[2]
 
 var promise = client.calls.create({
     url: config.xmlUrl,
@@ -14,7 +12,7 @@ var promise = client.calls.create({
 })
 
 promise.then(call => {
-    console.log('Call completed: ' + call.sid)
+    console.log('Call to ' + to + ' completed: ' + call.sid)
 }), (error) => {
     console.error(error)
 }
