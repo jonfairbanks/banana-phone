@@ -2,5 +2,5 @@
     "accountSid": "Axxxxxxxxxxxxxxxxx",
     "authToken": "4cxxxxxxxxxxxxxxxxx",
     "from": "+15555555", // Your Valid #
-    "xmlUrl": "https://raw.githubusercontent.com/jonfairbanks/banana-phone/master/voice.xml"
+    "xmlUrl": "https://handler.twilio.com/twiml/EHb78f5f5b58138c3a2cf3b1bb412c6736"
 }
