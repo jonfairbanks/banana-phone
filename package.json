@@ -11,6 +11,6 @@
   "dependencies": {
     "body-parser": "^1.18.3",
     "express": "^4.16.4",
-    "twilio": "^3.29.1"
+    "twilio": "^3.31.1"
   }
 }
